@@ -20,6 +20,7 @@ def main():
                 return
 
         screen.fill((0,0,0))
+        player.rotate(dt)
         player.draw(screen)
         pygame.display.flip()
 
